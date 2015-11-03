@@ -1,0 +1,64 @@
+Changes in the versions:
+
+2.3
+  - 30% speed-up on Core 2 chips. The theoretical value of 1100
+ticks per password has been beat.
+
+2.22
+  - Some parsing bugs fixed
+  - "Illegal instruction" bug on AMD fixed (Linux version).
+
+2.21
+  - Serious AES decryption bug fixed
+
+2.2
+  - Acrobat 7.0 (PDF 1.6) support including AES encryption and
+unencrypted metadata feature (restrictions removal only)
+  - 10-25% speed-up on Pentium 4 and AMD. Kernel crypto function
+for any processor now can be easily added and the best rate
+functions are chosen automatically. New /pXYZ option.
+(n-clients version only).
+  - 2-clients version instead of 1-client (for the same price) to use
+the power of dual/dual-core processors. 
+  - DEMO limitation changed, now FREE version doesn't stop but
+produces the file with few readable pages. 
+
+2.1a
+  - Interruption by Ctrl+C bug on multiprocessor and P4 HyperThreading
+    computers fixed (command-line versions only)
+
+2.1
+  - Few decryption bugs fixed
+
+2.0
+  - GUI version available, command-line is now full Win32 application
+  - Engine fully rewritten, Acrobat 6.0 (PDF 1.5) support, no more
+"String truncated" warnings (at least, up to PDF 1.4)
+  - Pentium 4 optimization
+  - More accurate estimated time calculation
+
+1.2:
+   - Acrobat 5.x (PDF 1.4) 128-bit encryption support - restrictions
+removal only, files encrypted with user password can't be
+guaranteed decrypted.
+   - Few parsing bugs have been fixed.
+   - First client now can be considered as "server". The decryption
+is performed on this client only. New /1 option. (n-clients versions
+only).
+   - Demo limitations has been changed slightly, now it can decrypt
+larger files.
+   - Linux version available.
+
+1.1:
+   - /p option has been extended, now you can decrypt files with
+known  onwer password instantly.  Restrictions  remover  version
+hasn't been changed.
+
+1.0:
+   - key testing is 5% faster
+   - new options /p, /y
+   - fixed minor bugs in parsing and decrypting
+   - some interface improvement
+
+0.9:
+   - First  (BETA) version  released.
